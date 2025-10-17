@@ -1,0 +1,9 @@
+# C++ build artifacts
+*.o
+*.out
+*.exe
+main
+
+# Cache and local files
+.cache/
+.local/
