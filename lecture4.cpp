@@ -7,8 +7,13 @@ void printNameNTimes(int i,int n){
     printNameNTimes(i+1,n); // recursive call
 }
 
-int main() {
+void printOneToN(int i,int n){
+    if(i>n) return;
+    cout<<i<<endl;
+}
 
+int main() {
+    //first 
     printNameNTimes(0, 4);
     return 0;
 }
