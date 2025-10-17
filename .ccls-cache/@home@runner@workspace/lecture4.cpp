@@ -10,10 +10,15 @@ void printNameNTimes(int i,int n){
 void printOneToN(int i,int n){
     if(i>n) return;
     cout<<i<<endl;
+    printOneToN(i+1,n);
 }
 
 int main() {
-    //first 
+    //first Problem
     printNameNTimes(0, 4);
+
+    //second Problem
+    printOneToN(1, 4);
+
     return 0;
 }
