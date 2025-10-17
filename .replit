@@ -21,9 +21,9 @@ args = "Run C++"
 name = "Run C++"
 author = "agent"
 
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "clang++ -o main main.cpp && ./main"
-
 [workflows.workflow.metadata]
 outputType = "console"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "clang++ -o lecture4 lecture4.cpp && ./lecture4"
