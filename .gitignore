@@ -7,3 +7,4 @@ main
 # Cache and local files
 .cache/
 .local/
+.ccls-cache/
